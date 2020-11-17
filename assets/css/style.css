@@ -71,7 +71,7 @@ body{font-family: 'Roboto', sans-serif;font-size: 15px;line-height: 28px;}
     opacity: 0;
 }
 .single-slider-item {
-    background-size: cover;
+    background-size:  cover;
     background-position: center;
     background-color: #ddd;
     height: 590px;
