@@ -4,6 +4,8 @@ body{font-family: 'Roboto', sans-serif;font-size: 15px;line-height: 28px;}
 .slide-bg-1 {background-image: url(../img/slider-bg-1.jpg)}
 .service-bg-1 {background-image: url(../img/service-bg-1.jpg)}
 .project-bg-1{background-image: url(../img/boxed-bg-1.jpg);}
+.project-bg-2{background-image: url(../img/boxed-bg-2.jpg);}
+.project-bg-3{background-image: url(../img/boxed-bg-3.jpg);}
 .blog-bg-1{background-image: url(../img/boxed-bg-1.jpg);}
 h3{
   font-weight: 700;   
@@ -88,6 +90,10 @@ h3{
     height: 100%;
     width: 100%;
 }
+.slide-item-tablecell :hover a{
+    color: #222;
+    text-decoration: none;
+}
 .slide-item-tablecell{ 
     display: table-cell;
     vertical-align: middle;
@@ -158,4 +164,73 @@ h3{
 }
 .factorian-cta-area h2{
     margin: 9px 0;
+}
+.who-we-are-text{
+    padding: 0 40px;
+    display: block;
+}
+.single-promo-item{
+    position: relative;
+    padding-left: 44px;
+    margin-top: 70px;
+}
+.single-promo-item i.fa{
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #f7be49;
+    height: 25px;
+    width: 25px;
+    border: 2px solid #f7be49;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 22px;
+}
+.factorian-content-block.section-gray {
+    background-color: #f2f5f7;
+}
+.check-list li::before{
+    content: "\f00c";
+    font-family: "fontawesome"; 
+    color: #f7be49;
+    padding-right: 9px;
+}
+.check-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    line-height: 31px;
+    list-style: outside none none;
+    margin-top: 20px;
+}
+.section-title{
+    max-width: 415px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.play-videos img {
+    width: 500px;
+}
+.section-title h3{
+    margin: 0;
+    line-height: 30px;
+}
+.single-project-item{
+    color: #6e6e6e;
+    display: block;
+    margin-bottom: 30px;
+}
+.project-preview {
+    height: 180px;
+    margin-bottom: 20px;
+}
+.single-project-item h4{
+    font-weight: 700;
+    color: #222;
+    margin: 0 0 10px;
+}
+.single-project-item:hover {
+    text-decoration: none;
+    color: #6e6e6e;
+    opacity: .8;
 }
