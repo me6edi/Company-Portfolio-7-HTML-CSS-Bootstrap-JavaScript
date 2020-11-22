@@ -207,6 +207,7 @@ h3{
     max-width: 415px;
     text-align: center;
     margin-bottom: 50px;
+    margin: 0 auto 50px;
 }
 .play-videos img {
     width: 500px;
@@ -228,9 +229,65 @@ h3{
     font-weight: 700;
     color: #222;
     margin: 0 0 10px;
+    margin-top: 20px;
 }
 .single-project-item:hover {
     text-decoration: none;
     color: #6e6e6e;
     opacity: .8;
+}
+.testimonial-content h3 span {
+    font-weight: normal;
+    font-size: 14px;
+    display: block;
+    margin-top: 10px;
+}
+
+.single-boxed-item {
+    color: #000;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.boxed-preview {
+    height: 180px;
+    margin-bottom: 20px;
+}
+.single-boxed-item:hover{
+    text-decoration: none;
+    color: #000;
+}
+.footer-top-area {
+    background: #222;
+}
+.footer-top-area, .footer-top-area a{
+    color: #cacaca;
+}
+.footer-wid{
+    padding: 80px 0;
+}
+.footer-logo{
+    margin: 0 0 20px;
+    background: #fff;
+    display: inline-block;
+    padding: 10px 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #222;
+}
+.footer-wid-title{
+    margin: 0 0 20px;
+    color: #fff;
+    font-size: 18px;
+}
+.footer-wid ul{
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+.footer-copyright-area {
+    background: #1d1d1d;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
 }
